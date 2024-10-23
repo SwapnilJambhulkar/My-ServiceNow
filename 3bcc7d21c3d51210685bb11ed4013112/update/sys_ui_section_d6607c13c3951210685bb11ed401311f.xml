@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Operating Systems" section_id="d6607c13c3951210685bb11ed401311f" sys_domain="global" table="x_1552256_incident_usecase_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>os</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 10:02:10</sys_created_on>
+            <sys_id>42637057c3951210685bb11ed401316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operating Systems" display_value="Operating Systems" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">d6607c13c3951210685bb11ed401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 10:02:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 10:02:10</sys_created_on>
+            <sys_id>c6637057c3951210685bb11ed401316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operating Systems" display_value="Operating Systems" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">d6607c13c3951210685bb11ed401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 10:02:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>windows</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 10:02:10</sys_created_on>
+            <sys_id>4e637057c3951210685bb11ed401316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operating Systems" display_value="Operating Systems" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">d6607c13c3951210685bb11ed401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 10:02:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mac</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 10:02:10</sys_created_on>
+            <sys_id>c2637057c3951210685bb11ed401316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operating Systems" display_value="Operating Systems" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">d6607c13c3951210685bb11ed401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 10:02:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linux</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 10:02:10</sys_created_on>
+            <sys_id>4a637057c3951210685bb11ed401316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Operating Systems" display_value="Operating Systems" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">d6607c13c3951210685bb11ed401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 10:02:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Operating Systems</caption>
+            <header>false</header>
+            <name>x_1552256_incident_usecase_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 09:49:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6607c13c3951210685bb11ed401311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1552256_incident_usecase_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+            <sys_update_name>sys_ui_section_d6607c13c3951210685bb11ed401311f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 09:49:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
