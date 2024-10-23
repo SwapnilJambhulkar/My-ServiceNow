@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>urgency</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>demo prio</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+if (isLoading || newValue == '') {
+return;
+}
+
+
+var impact = g_form.getValue('impact');
+var urgency = g_form.getValue('urgency');
+
+
+if (impact == '1' && urgency == 'a') {
+g_form.setValue('priority','1-Critical');
+} else if ((impact == '1' && urgency == 'b') ||
+(impact == '2' && urgency == 'a')) {
+g_form.setValue('priority','2-High');
+} else if ((impact == '1' && urgency == 'c') ||
+(impact == '2' && urgency == 'b') ||
+(impact == '3' && urgency == 'a')) {
+g_form.setValue('priority','3-Moderate');
+} else if ((impact == '2' && urgency == 'c') ||
+(impact == '3' && urgency == 'b')) {
+g_form.setValue('priority','4-Low');
+} else if (impact == '3' && urgency == 'c') {
+g_form.setValue('priority','5-Planning');
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 06:18:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1aff3b4fc3511210685bb11ed401310d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>demo prio</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>sys_script_client_1aff3b4fc3511210685bb11ed401310d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 06:51:57</sys_updated_on>
+        <table>x_1552256_incident_demo_incident</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</application>
+        <file_path/>
+        <instance_id>f6c1789adb7e71d0caf99027c59619ed</instance_id>
+        <instance_name>dev230478</instance_name>
+        <name>sys_script_client_1aff3b4fc3511210685bb11ed401310d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;urgency&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;demo prio&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+if (isLoading || newValue == '') {
+return;
+}
+
+
+var impact = g_form.getValue('impact');
+var urgency = g_form.getValue('urgency');
+
+
+if (impact == '1' &amp;&amp; urgency == 'a') {
+g_form.setValue('priority','1-Critical');
+} else if ((impact == '1' &amp;&amp; urgency == 'b') ||
+(impact == '2' &amp;&amp; urgency == 'a')) {
+g_form.setValue('priority','2-High');
+} else if ((impact == '1' &amp;&amp; urgency == 'c') ||
+(impact == '2' &amp;&amp; urgency == 'b') ||
+(impact == '3' &amp;&amp; urgency == 'a')) {
+g_form.setValue('priority','3-Moderate');
+} else if ((impact == '2' &amp;&amp; urgency == 'c') ||
+(impact == '3' &amp;&amp; urgency == 'b')) {
+g_form.setValue('priority','4-Low');
+} else if (impact == '3' &amp;&amp; urgency == 'c') {
+g_form.setValue('priority','5-Planning');
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-22 06:18:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1aff3b4fc3511210685bb11ed401310d&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;demo prio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Incident Demo" source="x_1552256_incident"&gt;3bcc7d21c3d51210685bb11ed4013112&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Incident Demo"&gt;3bcc7d21c3d51210685bb11ed4013112&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1aff3b4fc3511210685bb11ed401310d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-22 06:51:57&lt;/sys_updated_on&gt;&lt;table&gt;x_1552256_incident_demo_incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1855928323</payload_hash>
+        <record_name>demo prio</record_name>
+        <reverted_from/>
+        <source>f3cc7d21c3d51210685bb11ed4013114</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 06:51:57</sys_created_on>
+        <sys_id>a3d78cd7c3911210685bb11ed4013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b2ff21ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 06:51:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6bd78cd7dd9112102b8847e121122210</update_guid>
+        <update_guid_history>6bd78cd7dd9112102b8847e121122210:-1855928323,6a7744d7cd911210a30b2b66c48eee5e:-1178790486,5e170c13a791121040cb00fd9bf9d8e2:-1855928323,c3644c13809112107382c7aea8c52382:1651324609,ce4480d3a391121028bedcc029cb3ca9:-1261984652,6fc20453a39112107227805281c53d00:-2096151480,4030445bac511210a1c3bc1c5db9f5c1:-711044606</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 07:01:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>18258cf6582d45a5ba13dc85ef932691</sys_id>
+        <sys_metadata>1aff3b4fc3511210685bb11ed401310d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo prio</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_parent display_value="Incidents">9dadbd21c3d51210685bb11ed40131e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_scope_delete display_value="">03e5e1d924e246bc801e3392950348e4</sys_scope_delete>
+        <sys_update_name>sys_script_client_1aff3b4fc3511210685bb11ed401310d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1aff3b4fc3511210685bb11ed401310d">a3d78cd7c3911210685bb11ed4013111</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 07:01:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

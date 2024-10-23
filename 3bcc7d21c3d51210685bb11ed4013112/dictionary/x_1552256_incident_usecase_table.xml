@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="61be289fc3551210685bb11ed4013152" label="Usecase Table" max_length="40" name="x_1552256_incident_usecase_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="String Field" max_length="40" name="u_string_1" type="string"/>
+        <element label="New Field Name" max_length="80" name="u_field_name_2" type="field_name"/>
+        <element label="Linux" max_length="40" name="linux" type="boolean"/>
+        <element label="Windows" max_length="40" name="windows" type="boolean"/>
+        <element choice="1" label="OS" max_length="40" name="os" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Linux" value="2"/>
+                <element inactive_on_update="false" label="Windows" value="1"/>
+                <element inactive_on_update="false" label="Mac" value="3"/>
+            </choice>
+        </element>
+        <element label="Mac" max_length="40" name="mac" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
+    </element>
+</database>

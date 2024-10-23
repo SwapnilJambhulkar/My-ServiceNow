@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9dadbd21c3d51210685bb11ed40131e2" label="Incidents" max_length="40" name="x_1552256_incident_demo_incident" type="collection">
+        <element label="Activities: 1" max_length="400" name="activities_1" type="journal_list"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Resolved" max_length="40" name="resolved" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="4000" name="u_journal_1" type="journal"/>
+        <element choice="1" label="Channel" max_length="40" name="channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Email" sequence="2" value="Email"/>
+                <element inactive_on_update="false" label="Phone" sequence="3" value="Phone"/>
+                <element inactive_on_update="false" label="Chat" sequence="1" value="Chat"/>
+            </choice>
+        </element>
+        <element label="Change Request" max_length="32" name="change_request" reference="change_request" type="reference"/>
+        <element label="Short Description" mandatory="true" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2-Medium" sequence="2" value="2-Medium"/>
+                <element inactive_on_update="false" label="1-High" sequence="1" value="1-High"/>
+                <element inactive_on_update="false" label="3-Low" sequence="3" value="3-Low"/>
+            </choice>
+        </element>
+        <element label="Problem" max_length="32" name="problem" reference="problem" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_journal_2" type="journal"/>
+        <element label="Services" max_length="32" name="services" reference="sys_service" type="reference"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3-Moderate" sequence="300" value="3-Moderate"/>
+                <element inactive_on_update="false" label="1-Critical" sequence="100" value="1-Critical"/>
+                <element inactive_on_update="false" label="2-High" sequence="200" value="2-High"/>
+                <element inactive_on_update="false" label="5-Planning" sequence="500" value="5-Planning"/>
+                <element inactive_on_update="false" label="4-Low" sequence="400" value="4-Low"/>
+            </choice>
+        </element>
+        <element label="Knowledge" max_length="40" name="knowledge" type="boolean"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="journal_list"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed Complete" sequence="0" value="cl c"/>
+                <element inactive_on_update="false" label="Resolved" sequence="5" value="reso"/>
+                <element inactive_on_update="false" label="In progress" sequence="2" value="in p"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="On hold" sequence="4" value="on h"/>
+                <element inactive_on_update="false" label="New" sequence="3" value="new"/>
+            </choice>
+        </element>
+        <element choice="1" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="3-Low" sequence="3" value="3-Low"/>
+                <element inactive_on_update="false" label="2-Medium" sequence="2" value="2-Medium"/>
+                <element inactive_on_update="false" label="1-High" sequence="1" value="1-High"/>
+            </choice>
+        </element>
+        <element label="Resolution Notes" max_length="400" name="resolution_notes" type="string"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Software" inactive_on_update="false" label="Email" value="email"/>
+                <element dependent_value="Network" inactive_on_update="false" label="DHCP" value="dhcp"/>
+                <element dependent_value="Database" inactive_on_update="false" label="MS SQL" value="s sql"/>
+                <element dependent_value="Inquiry" inactive_on_update="false" label="Antivirus" value="anti"/>
+                <element dependent_value="Database" inactive_on_update="false" label="DB 2" value="db 2"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="CPU" value="cpu"/>
+                <element dependent_value="Network" inactive_on_update="false" label="VPN" value="pn"/>
+                <element dependent_value="Database" inactive_on_update="false" label="Oracle" value="racle"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Operating System" value="os"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Disk" value="sik"/>
+                <element dependent_value="Network" inactive_on_update="false" label="IP Adress" value="p ad"/>
+                <element dependent_value="Inquiry" inactive_on_update="false" label="Email" value="mail"/>
+                <element dependent_value="Inquiry" inactive_on_update="false" label="Internal Application" value="ia"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Keyboard" value="key"/>
+            </choice>
+        </element>
+        <element label="Caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Network" sequence="4" value="Network"/>
+                <element inactive_on_update="false" label="Inquiry" sequence="1" value="Inquiry"/>
+                <element inactive_on_update="false" label="Hardware" sequence="2" value="Hardware"/>
+                <element inactive_on_update="false" label="Database" sequence="5" value="Database"/>
+                <element inactive_on_update="false" label="Software" sequence="3" value="Software"/>
+            </choice>
+        </element>
+        <element label="Caused by Change" max_length="32" name="caused_by_change" reference="chg_model" type="reference"/>
+        <element label="Parent Incident" max_length="32" name="parent_incident" reference="incident" type="reference"/>
+        <element label="Configuration item" max_length="32" name="configuration_item" reference="cmdb_ci" type="reference"/>
+        <element label="Service offering" max_length="32" name="service_offering" reference="task_service_offering" type="reference"/>
+        <element choice="1" label="Resolution Code" max_length="40" name="resolution_code" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Resolved by change" sequence="5" value="Rch"/>
+                <element inactive_on_update="false" label="Workaround provided" sequence="9" value="wk"/>
+                <element inactive_on_update="false" label="User error" sequence="10" value="ue"/>
+                <element inactive_on_update="false" label="Resolved by problem" sequence="6" value="Rp"/>
+                <element inactive_on_update="false" label="No Resolution provided" sequence="3" value="N"/>
+                <element inactive_on_update="false" label="Known Error" sequence="2" value="K"/>
+                <element inactive_on_update="false" label="Solution Provided" sequence="8" value="sp"/>
+                <element inactive_on_update="false" label="Resolved by caller" sequence="4" value="Rc"/>
+                <element inactive_on_update="false" label="Resolved by request" sequence="7" value="rr"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="1" value="D"/>
+            </choice>
+        </element>
+        <element label="Work Notes List" max_length="4000" name="work_notes_list" reference="promin_note" type="glide_list"/>
+        <element label="Watch List" max_length="4000" name="watch_list" reference="sys_user" type="glide_list"/>
+        <element label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="caller"/>
+        </index>
+        <index name="index4">
+            <element name="caused_by_change"/>
+        </index>
+        <index name="index5">
+            <element name="change_request"/>
+        </index>
+        <index name="index6">
+            <element name="configuration_item"/>
+        </index>
+        <index name="index7">
+            <element name="parent_incident"/>
+        </index>
+        <index name="index8">
+            <element name="problem"/>
+        </index>
+        <index name="index9">
+            <element name="resolved_by"/>
+        </index>
+        <index name="index10">
+            <element name="service_offering"/>
+        </index>
+        <index name="index11">
+            <element name="services"/>
+        </index>
+    </element>
+</database>

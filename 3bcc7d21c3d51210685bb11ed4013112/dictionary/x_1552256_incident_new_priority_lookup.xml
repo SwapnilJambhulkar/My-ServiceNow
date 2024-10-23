@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="63daf707c3511210685bb11ed40131ad" extends="dl_matcher" label="New priority lookup" max_length="40" name="x_1552256_incident_new_priority_lookup" type="collection">
+        <element choice="1" choice_field="urgency" choice_table="x_1552256_incident_demo_incident" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="priority" choice_table="x_1552256_incident_demo_incident" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="impact" choice_table="x_1552256_incident_demo_incident" label="Impact" max_length="40" name="impact" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
