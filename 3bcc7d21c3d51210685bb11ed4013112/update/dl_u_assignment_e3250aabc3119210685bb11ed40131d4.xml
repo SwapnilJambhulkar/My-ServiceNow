@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_u_assignment">
+    <dl_u_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assigned_to/>
+        <assignment_group display_value="Network" name="Network">287ebd7da9fe198100f92cc8d1d2154e</assignment_group>
+        <category>network</category>
+        <cmdb_ci/>
+        <location/>
+        <order>100</order>
+        <subcategory/>
+        <sys_class_name>dl_u_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 10:39:11</sys_created_on>
+        <sys_id>e3250aabc3119210685bb11ed40131d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>dl_u_assignment_e3250aabc3119210685bb11ed40131d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 10:39:11</sys_updated_on>
+    </dl_u_assignment>
+</record_update>
