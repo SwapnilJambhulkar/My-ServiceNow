@@ -103,6 +103,7 @@
         <element label="Work Notes List" max_length="4000" name="work_notes_list" reference="promin_note" type="glide_list"/>
         <element label="Watch List" max_length="4000" name="watch_list" reference="sys_user" type="glide_list"/>
         <element label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened" max_length="40" name="opened" type="glide_date_time"/>
         <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <index name="index">
             <element name="assigned_to"/>

@@ -3,19 +3,21 @@
         <alt/>
         <element>priority</element>
         <name>x_1552256_incident_demo_incident</name>
-        <style>background-color: orange;</style>
+        <style>background-image: url('cs-picker-radio-button.svg');&#13;
+background-repeat: no-repeat;&#13;
+padding-right: 30px;</style>
         <sys_class_name>sys_ui_style</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-22 07:56:01</sys_created_on>
         <sys_id>c146dc5fc3d11210685bb11ed401310b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>x_1552256_incident_demo_incident</sys_name>
         <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
         <sys_update_name>sys_ui_style_c146dc5fc3d11210685bb11ed401310b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-22 09:19:28</sys_updated_on>
+        <sys_updated_on>2024-10-24 10:15:21</sys_updated_on>
         <themed_style/>
         <value>1-Critical</value>
     </sys_ui_style>
