@@ -4,13 +4,41 @@
             <element>u_string_1</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 10:02:10</sys_created_on>
-            <sys_id>02637057c3951210685bb11ed401311b</sys_id>
+            <sys_created_on>2024-10-23 07:48:40</sys_created_on>
+            <sys_id>987e592bc35d5210685bb11ed40131af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">a5eee89fc3551210685bb11ed4013175</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 10:02:10</sys_updated_on>
+            <sys_updated_on>2024-10-23 07:48:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 07:48:40</sys_created_on>
+            <sys_id>107e592bc35d5210685bb11ed40131b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">a5eee89fc3551210685bb11ed4013175</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 07:48:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-23 07:48:40</sys_created_on>
+            <sys_id>947e592bc35d5210685bb11ed40131b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1552256_incident_usecase_table" sys_domain="global" view="Default view">a5eee89fc3551210685bb11ed4013175</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-23 07:48:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

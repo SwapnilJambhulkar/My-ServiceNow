@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="DELETE">
+        <active>true</active>
+        <condition table="incident">contact_type=chat^state=2^EQ<item display_value="Chat" endquery="false" field="contact_type" goto="false" newquery="false" operator="=" or="false" value="chat"/>
+            <item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group display_value="Hardware" name="Hardware">8a5055c9c61122780043563ef53438e3</group>
+        <match_conditions>ALL</match_conditions>
+        <name>jhgh</name>
+        <order>100</order>
+        <script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 07:31:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d56a95a3c35d5210685bb11ed4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jhgh</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>sysrule_assignment_d56a95a3c35d5210685bb11ed4013182</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:31:47</sys_updated_on>
+        <table>incident</table>
+        <user display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</user>
+    </sysrule_assignment>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</application>
+        <file_path/>
+        <instance_id>f6c1789adb7e71d0caf99027c59619ed</instance_id>
+        <instance_name>dev230478</instance_name>
+        <name>sysrule_assignment_d56a95a3c35d5210685bb11ed4013182</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment"><sysrule_assignment action="INSERT_OR_UPDATE"><active>true</active><condition table="incident">contact_type=chat^state=2^EQ<item display_value="Chat" endquery="false" field="contact_type" goto="false" newquery="false" operator="=" or="false" value="chat"/><item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><group display_value="Hardware" name="Hardware">8a5055c9c61122780043563ef53438e3</group><match_conditions>ALL</match_conditions><name>jhgh</name><order>100</order><script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script><sys_class_name>sysrule_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-23 07:31:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d56a95a3c35d5210685bb11ed4013182</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jhgh</sys_name><sys_overrides/><sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package><sys_policy/><sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope><sys_update_name>sysrule_assignment_d56a95a3c35d5210685bb11ed4013182</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-23 07:31:47</sys_updated_on><table>incident</table><user display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</user></sysrule_assignment></record_update>]]></payload>
+        <payload_hash>-395575842</payload_hash>
+        <record_name>jhgh</record_name>
+        <reverted_from/>
+        <source>3dce4527c3995210685bb11ed4013150</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 07:31:47</sys_created_on>
+        <sys_id>709ad9a3c31d5210685bb11ed4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b849f3470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:31:47</sys_updated_on>
+        <type>Assignment Rule</type>
+        <update_guid>749ad9a32f1d5210672a770a31e12c05</update_guid>
+        <update_guid_history>749ad9a32f1d5210672a770a31e12c05:-395575842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-23 07:32:58</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_assignment">sysrule_assignment</sys_db_object>
+        <sys_id>1e6168dcbae54fe88af929852346c324</sys_id>
+        <sys_metadata>d56a95a3c35d5210685bb11ed4013182</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jhgh</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_parent display_value="Incident">c23b4fdbd1a302104f34ba60d8b7c126</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_scope_delete display_value="">03e5e1d924e246bc801e3392950348e4</sys_scope_delete>
+        <sys_update_name>sysrule_assignment_d56a95a3c35d5210685bb11ed4013182</sys_update_name>
+        <sys_update_version display_value="sysrule_assignment_d56a95a3c35d5210685bb11ed4013182">709ad9a3c31d5210685bb11ed4013106</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-23 07:32:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

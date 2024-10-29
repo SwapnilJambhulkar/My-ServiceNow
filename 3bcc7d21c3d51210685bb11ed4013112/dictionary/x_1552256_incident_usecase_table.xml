@@ -11,6 +11,7 @@
                 <element inactive_on_update="false" label="Mac" value="3"/>
             </choice>
         </element>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
         <element label="Mac" max_length="40" name="mac" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
     </element>
