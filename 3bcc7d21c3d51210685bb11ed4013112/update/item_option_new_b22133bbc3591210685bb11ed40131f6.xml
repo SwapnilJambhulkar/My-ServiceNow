@@ -17,8 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_dot_walk_path>mobile_phone</dynamic_value_dot_walk_path>
+        <dynamic_value_field display_value="Requested For">0a6fabf7c3591210685bb11ed40131e1</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-24 13:08:57</sys_created_on>
         <sys_id>b22133bbc3591210685bb11ed40131f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Phone number</sys_name>
         <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
         <sys_update_name>item_option_new_b22133bbc3591210685bb11ed40131f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-24 13:25:32</sys_updated_on>
+        <sys_updated_on>2024-10-25 05:11:55</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>

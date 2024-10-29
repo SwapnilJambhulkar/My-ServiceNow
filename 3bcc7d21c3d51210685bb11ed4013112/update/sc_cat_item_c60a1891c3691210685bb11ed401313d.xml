@@ -4,17 +4,17 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <category display_value="Peripherals">2c0b59874f7b4200086eeed18110c71f</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description/>
+        <description><![CDATA[<p>Enclose all the related information</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="New Asset Request Flow">caba40edc3e95210685bb11ed4013181</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -29,16 +29,16 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>New Laptop Request</name>
+        <name>New Asset Request</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
-        <no_cart_v2>true</no_cart_v2>
+        <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
-        <no_quantity_v2>true</no_quantity_v2>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
@@ -47,61 +47,61 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=495527fbc3191210685bb11ed40131dd&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c60a1891c3691210685bb11ed401313d&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <request_method>request</request_method>
+        <request_method/>
         <roles/>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>Use this form to request for new laptop or re-issue of laptops</short_description>
+        <short_description>Use this to raise a new Asset Request</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-24 12:55:41</sys_created_on>
-        <sys_id>495527fbc3191210685bb11ed40131dd</sys_id>
-        <sys_mod_count>52</sys_mod_count>
-        <sys_name>New Laptop Request</sys_name>
+        <sys_created_on>2024-10-28 13:20:38</sys_created_on>
+        <sys_id>c60a1891c3691210685bb11ed401313d</sys_id>
+        <sys_mod_count>126</sys_mod_count>
+        <sys_name>New Asset Request</sys_name>
         <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
         <sys_policy/>
         <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
-        <sys_update_name>sc_cat_item_495527fbc3191210685bb11ed40131dd</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-28 12:15:05</sys_updated_on>
+        <sys_update_name>sc_cat_item_c60a1891c3691210685bb11ed401313d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-29 11:04:39</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>52</version>
+        <version>126</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="New Laptop Request Workflow">ebeffb8dc3a51210685bb11ed40131d3</workflow>
+        <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=495527fbc3191210685bb11ed40131dd"/>
-    <fx_price action="delete_multiple" query="id=495527fbc3191210685bb11ed40131dd"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c60a1891c3691210685bb11ed401313d"/>
+    <fx_price action="delete_multiple" query="id=c60a1891c3691210685bb11ed401313d"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>495527fbc3191210685bb11ed40131dd</id>
+        <id>c60a1891c3691210685bb11ed401313d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-24 12:55:41</sys_created_on>
-        <sys_id>8b4e67b7c3591210685bb11ed4013150</sys_id>
+        <sys_created_on>2024-10-28 13:20:38</sys_created_on>
+        <sys_id>bf5a1891c3691210685bb11ed401319a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-24 12:55:41</sys_updated_on>
+        <sys_updated_on>2024-10-28 13:20:38</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -109,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>495527fbc3191210685bb11ed40131dd</id>
+        <id>c60a1891c3691210685bb11ed401313d</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-24 12:55:41</sys_created_on>
-        <sys_id>4b4e67b7c3591210685bb11ed4013151</sys_id>
+        <sys_created_on>2024-10-28 13:20:38</sys_created_on>
+        <sys_id>7f5a1891c3691210685bb11ed401319b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-24 12:55:41</sys_updated_on>
+        <sys_updated_on>2024-10-28 13:20:38</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
