@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="278a5e2ac3711210685bb11ed4013122" sys_domain="global" table="x_1552256_incident_demo_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-14 06:08:48</sys_created_on>
+            <sys_id>ab8a5e2ac3711210685bb11ed401314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1552256_incident_demo_incident" sys_domain="global" view="Default view">278a5e2ac3711210685bb11ed4013122</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-14 06:08:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1552256_incident_demo_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-14 06:08:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>278a5e2ac3711210685bb11ed4013122</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1552256_incident_demo_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+            <sys_update_name>sys_ui_section_278a5e2ac3711210685bb11ed4013122</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-14 06:08:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</application>
+        <file_path/>
+        <instance_id>f6c1789adb7e71d0caf99027c59619ed</instance_id>
+        <instance_name>dev230478</instance_name>
+        <name>sys_ui_section_278a5e2ac3711210685bb11ed4013122</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="278a5e2ac3711210685bb11ed4013122" sys_domain="global" table="x_1552256_incident_demo_incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>resolution_notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-14 06:08:48</sys_created_on><sys_id>ab8a5e2ac3711210685bb11ed401314d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1552256_incident_demo_incident" sys_domain="global" view="Default view">278a5e2ac3711210685bb11ed4013122</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-14 06:08:48</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1552256_incident_demo_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-14 06:08:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>278a5e2ac3711210685bb11ed4013122</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1552256_incident_demo_incident</sys_name><sys_overrides/><sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package><sys_policy/><sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope><sys_update_name>sys_ui_section_278a5e2ac3711210685bb11ed4013122</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-14 06:08:47</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1880023970</payload_hash>
+        <record_name>Incidents</record_name>
+        <reverted_from/>
+        <source>d6a3e16dc3e19210685bb11ed4013184</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-14 06:08:48</sys_created_on>
+        <sys_id>2b8a5e2ac3711210685bb11ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1932949e2c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-14 06:08:48</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>af8a5e2ae97112107ed467fcbe7ea34e</update_guid>
+        <update_guid_history>af8a5e2ae97112107ed467fcbe7ea34e:1880023970</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-14 06:10:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>88c55caf6ce1471a9b9bf88e09cddc84</sys_id>
+        <sys_metadata>278a5e2ac3711210685bb11ed4013122</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_parent display_value="Incidents">9dadbd21c3d51210685bb11ed40131e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_scope_delete display_value="">03e5e1d924e246bc801e3392950348e4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_278a5e2ac3711210685bb11ed4013122</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_278a5e2ac3711210685bb11ed4013122">2b8a5e2ac3711210685bb11ed401314f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-14 06:10:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

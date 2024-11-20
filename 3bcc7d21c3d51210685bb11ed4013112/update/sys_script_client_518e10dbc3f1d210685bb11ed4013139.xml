@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Planned start date can't be in past</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading || newValue == '') {
+
+          return;
+
+    }
+
+var today = new Date().getTime();
+
+ 
+
+  var start = new Date(g_form.getValue('start_date'));
+
+  g_form.hideFieldMsg('start_date', true);
+
+  if(start<today)
+
+  {
+
+  g_form.showFieldMsg('start_date','Start date cannot be in the past','error');
+
+  //g_form.clearValue('start_date');
+
+  }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 05:03:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>518e10dbc3f1d210685bb11ed4013139</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Planned start date can't be in past</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>sys_script_client_518e10dbc3f1d210685bb11ed4013139</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 05:08:16</sys_updated_on>
+        <table>change_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

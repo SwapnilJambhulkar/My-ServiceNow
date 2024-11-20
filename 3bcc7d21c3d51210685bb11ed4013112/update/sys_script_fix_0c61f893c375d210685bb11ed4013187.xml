@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>Delete duplicate entry with Similar short description in incident (there is be one left one )</description>
+        <name>Delete Incident With Same Short Desc</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[(function() {
+    var incidentGR = new GlideRecord('incident');
+    incidentGR.query();
+    var descriptionMap = {};
+
+    while (incidentGR.next()) {
+        var shortDesc = incidentGR.short_description;  
+ 
+        if (descriptionMap[shortDesc]) {
+            incidentGR.deleteRecord();
+            gs.info('Deleted duplicate Incident with short_description: ' + shortDesc);
+        } else {
+            descriptionMap[shortDesc] = incidentGR.sys_id;
+        }
+    }
+})();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 06:26:40</sys_created_on>
+        <sys_id>0c61f893c375d210685bb11ed4013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Incident With Same Short Desc</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>sys_script_fix_0c61f893c375d210685bb11ed4013187</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 06:26:40</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0c61f893c375d210685bb11ed4013187</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 06:26:40</sys_created_on>
+        <sys_id>30d17097c375d210685bb11ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 06:26:40</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

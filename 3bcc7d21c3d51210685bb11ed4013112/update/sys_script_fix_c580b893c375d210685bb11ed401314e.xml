@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description>:- write a Background script code for bringing number of incident raised on every caller for ex. abel tutor - 23 incidents (do not use glide aggregate group by). and do not repeat and skip the users with 0 incident.  </description>
+        <name>Number of Incident on every Caller</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[(function() {
+    var incidentGR = new GlideRecord('incident');
+    incidentGR.addQuery('active', true); 
+    incidentGR.query(); 
+
+    var callerIncidents = {};
+
+    while (incidentGR.next()) {
+        var callerID = incidentGR.caller_id;  
+
+        if (!callerID) continue;
+
+        var callerName = callerID.getDisplayValue();  
+
+        if (!callerIncidents[callerName]) {
+            callerIncidents[callerName] = 0;
+        }
+        callerIncidents[callerName]++;
+    }
+
+    for (var caller in callerIncidents) {
+        if (callerIncidents[caller] > 0) {
+            gs.info(caller + ' - ' + callerIncidents[caller] + ' incidents');
+        }
+    }
+})();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 06:21:28</sys_created_on>
+        <sys_id>c580b893c375d210685bb11ed401314e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Number of Incident on every Caller</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>sys_script_fix_c580b893c375d210685bb11ed401314e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 06:21:49</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c580b893c375d210685bb11ed401314e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 06:21:28</sys_created_on>
+        <sys_id>a0a0f493c375d210685bb11ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 06:21:28</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

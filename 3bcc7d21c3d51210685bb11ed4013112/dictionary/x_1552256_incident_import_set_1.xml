@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c8b4efdec3211210685bb11ed40131e5" extends="sys_import_set_row" label="import set 1" max_length="40" name="x_1552256_incident_import_set_1" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manager" label="Manager" max_length="40" name="u_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Group Email" label="Group Email" max_length="40" name="u_group_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Parent" label="Parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

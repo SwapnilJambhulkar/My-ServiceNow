@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1552256_incident.IncidentState1</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>IncidentState1</name>
+        <script><![CDATA[var IncidentState1 = Class.create();
+
+IncidentState1.NEW                = IncidentStateSNC1.NEW;
+IncidentState1.IN_PROGRESS        = IncidentStateSNC1.IN_PROGRESS;
+IncidentState1.ACTIVE             = IncidentStateSNC1.ACTIVE;
+IncidentState1.ON_HOLD            = IncidentStateSNC1.ON_HOLD;
+IncidentState1.AWAITING_PROBLEM   = IncidentStateSNC1.AWAITING_PROBLEM;
+IncidentState1.AWAITING_USER_INFO = IncidentStateSNC1.AWAITING_USER_INFO;
+IncidentState1.AWAITING_EVIDENCE  = IncidentStateSNC1.AWAITING_EVIDENCE;
+IncidentState1.RESOLVED           = IncidentStateSNC1.RESOLVED;
+IncidentState1.CLOSED             = IncidentStateSNC1.CLOSED;
+IncidentState1.CANCELED           = IncidentStateSNC1.CANCELED;
+
+IncidentState1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+getIncidentState1: function() {
+		return new JSON().encode(IncidentState1);
+	},
+
+    type: 'IncidentState1'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-14 05:42:47</sys_created_on>
+        <sys_id>b8f21eaec3311210685bb11ed401319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IncidentState1</sys_name>
+        <sys_package display_value="Incident Demo" source="x_1552256_incident">3bcc7d21c3d51210685bb11ed4013112</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Incident Demo">3bcc7d21c3d51210685bb11ed4013112</sys_scope>
+        <sys_update_name>sys_script_include_b8f21eaec3311210685bb11ed401319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-14 05:42:47</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b8f21eaec3311210685bb11ed401319a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-14 05:42:46</sys_created_on>
+        <sys_id>2a949a22c3711210685bb11ed40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-14 05:42:46</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
